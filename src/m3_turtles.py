@@ -101,10 +101,16 @@ matt.forward(200)
 #   As always, test by running the module.
 #
 ########################################################################
-
+turtleA=rg.SimpleTurtle()
+turtleA.speed=10
+turtleA.right(90)
+turtleA.forward(50)
+turtleA.left(120)
+turtleA.pen = rg.Pen('green',20)
+turtleA.draw_regular_polygon(10,120)
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
